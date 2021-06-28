@@ -1,19 +1,23 @@
 #!/bin/bash
 
-APP_PATH="/Library/Application Support/WLAN/StatusBarApp.app/Contents/Resources/"
+APP_PATH="/Library/Application Support/WLAN"
+RES_PATH="/Library/Application Support/WLAN/StatusBarApp.app/Contents/Resources/"
 
-echo "You will be prompted to logout when you use the script.\nPlease save your work!\n"
 echo "Do you wish to:"
 echo "Install (D)ark Mode| Install (L)ight Mode| (Q)uit"
 read -p ": " answer
 case ${answer:0:1} in
 	d|D )
-		cp Dark\ Mode/* "$APP_PATH"
-		osascript -e 'tell app "System Events" to log out'
+		cp Dark\ Mode/* "$RES_PATH"
+		#Exiting the app
+		killall StatusBarApp
+		#Opening a new instance
+		open "$APP_PATH"/StatusBarApp.app
 	;;
 	l|L )
-		cp Light\ Mode/* "$APP_PATH"
-		osascript -e 'tell app "System Events" to log out'
+		cp Light\ Mode/* "$RES_PATH"
+		killall StatusBarApp
+		open "$APP_PATH"/StatusBarApp.app
 	;;
 	q|Q )
 		exit

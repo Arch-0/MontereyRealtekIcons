@@ -11,8 +11,8 @@ Created using SF Fonts and Photoshop.
 To use the script open a Terminal Window in the project's folder and run:\
 `sh installationScript.sh`
 
-You will be prompted to logout so the changes can be applied!
-
+~~You will be prompted to logout so the changes can be applied!~~\
+The script will quit the process and reopen it, so no more logout necessary!
 
 #### Manual Installation ####
 
@@ -21,21 +21,27 @@ Copy the icons from the theme of your choosing and move them to:\
 
 To open `StatusBarApp.app` you can right click on it and then on `Show Package Contents`
 
-You will need to logout so the changes can be applied!
+You will need to logout so the changes can be applied!\
+Or you can open a Terminal Window and:\
+`killall StatusBarApp` to kill the process and open the `.app` you just modified!
 
 #### Screenshot ####
 
 Here is how it looks:
 
-![](https://imgur.com/GmvS6vs.png)
+**Dark Mode**\
+![](https://i.imgur.com/ZP0fcEC.png)
+
+**Light Mode**\
+![](https://i.imgur.com/dsQOJq3.png)
 
 #### Annoyances ####
 
+The Icons are not 100% the same size as the system's but gets close to 90%\
+I will be resizing the icons again soon.\
+\
+\
 The icons don't change based on System theme.\
-I will be looking for a solution to that problem in the near future. 
+For now you can rerun the installation script as it doesn't require a logout anymore!\
+But I will be looking for a solution to that problem that doesn't require white/black icons in the same file
 
-#### Acknowledgments ####
-
-[Realtek](https://www.realtek.com/en) for the WiFi Adapters\
-[Chris1111](https://github.com/chris1111) for the updated driver installers\
-[Yunyo](https://github.com/yunyu) for the inspiration to update this project
