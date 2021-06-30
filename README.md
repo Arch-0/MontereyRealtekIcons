@@ -12,7 +12,7 @@ To use the script open a Terminal Window in the project's folder and run:\
 `sh installationScript.sh`
 
 ~~You will be prompted to logout so the changes can be applied!~~\
-The script will quit the process and reopen it, so no more logout necessary!
+The script will quit the process and reopen it, so no logout necessary!
 
 #### Manual Installation ####
 
@@ -30,17 +30,13 @@ Or you can open a Terminal Window and:\
 Here is how it looks:
 
 **Dark Mode**\
-![](https://i.imgur.com/ZP0fcEC.png)
+![](https://i.imgur.com/fzXDwxI.png)
 
 **Light Mode**\
-![](https://i.imgur.com/dsQOJq3.png)
+![](https://i.imgur.com/lUyfhUD.png)
 
 #### Annoyances ####
 
-The Icons are not 100% the same size as the system's but gets close to 90%\
-I will be resizing the icons again soon.\
-\
-\
 The icons don't change based on System theme.\
 For now you can rerun the installation script as it doesn't require a logout anymore!\
 But I will be looking for a solution to that problem that doesn't require white/black icons in the same file
