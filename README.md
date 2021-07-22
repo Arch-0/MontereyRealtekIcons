@@ -1,3 +1,15 @@
+# This project is discontinued
+
+I am discontinuing this project since no matter how many attempts to get the WiFi icons
+to change with the system theming I never succeeded in a way that made me satisfied or I felt was
+good enough.\
+\
+I have since bought a Broadcom card for my machine and I have no use for my dongle anymore and now it sits
+in my cabinet drawer for the time being.\
+
+If you stumbled across this feel free to fork it and modify it to your needs.\
+End of transmission.
+
 # Realtek BigSur/Monterey WiFi Icons
 
 The Default icons look really bad and for that reason I decided to create my own.
@@ -39,5 +51,6 @@ Here is how it looks:
 
 The icons don't change based on System theme.\
 For now you can rerun the installation script as it doesn't require a logout anymore!\
-But I will be looking for a solution to that problem that doesn't require white/black icons in the same file
+But I will be looking for a solution to that problem that doesn't require white/black icons in the same file\
+The project is now discontinued.
 
